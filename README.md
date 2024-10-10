@@ -46,6 +46,7 @@ This repository presents three neural network-based projects developed by **Moha
 - **Accuracy**: Achieved a final accuracy of **89.25%**.
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_project1]()
 
 [Back to Top](#table-of-contents)
 ## Project 2: House Price Prediction
@@ -77,6 +78,8 @@ This repository presents three neural network-based projects developed by **Moha
 - **Model 2 Test Accuracy**: 87.83%
 - **Model 3 Test Accuracy**: 92.17%
 - **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
+
+![Epoch-Accuracy_and_Epoch_Loss_Chart_project3]()
 
 ### Analysis of Performance:
 - Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
