@@ -91,7 +91,6 @@ This repository presents three neural network-based projects developed by **Moha
 
 #### Model3
 ![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
-![Epoch-Accuracy_and_Epoch_Loss_Chart_project3]()
 
 ### Analysis of Performance:
 - Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
