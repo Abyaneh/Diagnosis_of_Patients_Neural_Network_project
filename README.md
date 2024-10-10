@@ -46,7 +46,6 @@ This repository presents three neural network-based projects developed by **Moha
 - **Accuracy**: Achieved a final accuracy of **89.25%**.
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
-[![Go to Top](#)](README.md)
 
 [Back to Top](#table-of-contents)
 ## Project 2: Clothing Classification
@@ -72,7 +71,6 @@ This repository presents three neural network-based projects developed by **Moha
 ### Analysis of Performance:
 - Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
 
-[![Go to Top](#)](README.md)
 
 [Back to Top](#table-of-contents)
 ## Project 3: House Price Prediction
@@ -83,8 +81,6 @@ This repository presents three neural network-based projects developed by **Moha
 - The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
 - A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
 - **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
-
-[![Go to Top](#)](README.md)
 
 [Back to Top](#table-of-contents)
 ## Technologies & Tools Used
