@@ -46,7 +46,7 @@ This repository presents three neural network-based projects developed by **Moha
 - **Accuracy**: Achieved a final accuracy of **89.25%**.
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_project1]()
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_project1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_project1.png)
 
 [Back to Top](#table-of-contents)
 ## Project 2: House Price Prediction
