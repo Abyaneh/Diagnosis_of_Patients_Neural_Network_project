@@ -1,6 +1,5 @@
 # Neural Network Group Project
 
-[![Go to Top](#)](README.md)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -20,12 +19,14 @@
 
 This repository presents three neural network-based projects developed by **Mohammad Maleki Abyaneh** and **Mohammad Mohtashami**. Each project is designed to address a different challenge: diagnosing patients with fatty liver, classifying clothing images, and predicting house prices. These projects apply advanced deep learning techniques and machine learning algorithms, focusing on creating efficient and scalable solutions for real-world problems.
 
+[Back to Top](#table-of-contents)
 ## Features
 
 - **Diagnosis of Patients with Fat**: A binary classification neural network model designed to diagnose fatty liver using patient medical records.
 - **Clothing Classification**: A convolutional neural network (CNN) model used to classify images of clothing into various categories.
 - **House Price Prediction**: A machine learning regression model that predicts house prices based on features such as location, size, and age of the house.
 
+[Back to Top](#table-of-contents)
 ## Project 1: Diagnosis of Patients with Fat
 
 **Objective**: This project aimed to create a neural network model to predict fatty liver disease in patients based on medical attributes like blood sugar, blood pressure, and age.
@@ -47,6 +48,7 @@ This repository presents three neural network-based projects developed by **Moha
 
 [![Go to Top](#)](README.md)
 
+[Back to Top](#table-of-contents)
 ## Project 2: Clothing Classification
 
 **Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
@@ -72,6 +74,7 @@ This repository presents three neural network-based projects developed by **Moha
 
 [![Go to Top](#)](README.md)
 
+[Back to Top](#table-of-contents)
 ## Project 3: House Price Prediction
 
 **Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
@@ -83,6 +86,7 @@ This repository presents three neural network-based projects developed by **Moha
 
 [![Go to Top](#)](README.md)
 
+[Back to Top](#table-of-contents)
 ## Technologies & Tools Used
 
 - **Programming Language**: Python
@@ -90,10 +94,41 @@ This repository presents three neural network-based projects developed by **Moha
 - **Machine Learning Techniques**: Neural Networks, CNNs, Regression
 - **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout
 
-[![Go to Top](#)](README.md)
+[Back to Top](#table-of-contents)
 
 ## How to Run the Project
 
-### Step 1: Clone the repository
 ```bash
+# Clone repository
 git clone https://github.com/yourusername/yourproject.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run specific projects
+python diagnosis_of_patients_with_fat.py
+python clothing_classification.py
+python house_price_prediction.py
+```
+[Back to Top](#table-of-contents)
+## Team Members
+- **Mohammad Maleki Abyaneh** (me)
+- **Mohammad Mohtashami**
+
+[Back to Top](#table-of-contents)
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Add a new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a pull request for review.
+
+[Back to Top](#table-of-contents)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/blob/main/LICENSE) file for details.
+
+[Back to Top](#table-of-contents)
+
