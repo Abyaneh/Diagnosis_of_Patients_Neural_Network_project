@@ -48,7 +48,17 @@ This repository presents three neural network-based projects developed by **Moha
 
 
 [Back to Top](#table-of-contents)
-## Project 2: Clothing Classification
+## Project 2: House Price Prediction
+
+**Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
+
+### Data and Model:
+- The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
+- A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
+- **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
+
+[Back to Top](#table-of-contents)
+## Project 3: Clothing Classification
 
 **Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
 
@@ -73,16 +83,7 @@ This repository presents three neural network-based projects developed by **Moha
 
 
 [Back to Top](#table-of-contents)
-## Project 3: House Price Prediction
 
-**Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
-
-### Data and Model:
-- The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
-- A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
-- **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
-
-[Back to Top](#table-of-contents)
 ## Technologies & Tools Used
 
 - **Programming Language**: Python
