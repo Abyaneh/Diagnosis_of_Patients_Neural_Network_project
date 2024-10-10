@@ -60,7 +60,7 @@ This repository features three group projects using neural networks. The work co
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Abyaneh/Neural_Network_projects/blob/main/README.md
 
 # Install dependencies
 pip install -r requirements.txt
