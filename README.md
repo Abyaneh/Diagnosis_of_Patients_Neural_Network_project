@@ -83,6 +83,9 @@ This repository presents three neural network-based projects developed by **Moha
 - **Model 3 Test Accuracy**: 92.17%
 - **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
 
+![Model1]()
+![Model2]()
+![Model3]()
 ![Epoch-Accuracy_and_Epoch_Loss_Chart_project3]()
 
 ### Analysis of Performance:
