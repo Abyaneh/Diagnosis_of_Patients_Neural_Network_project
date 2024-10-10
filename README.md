@@ -83,9 +83,14 @@ This repository presents three neural network-based projects developed by **Moha
 - **Model 3 Test Accuracy**: 92.17%
 - **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
 
-![Model1]()
-![Model2]()
-![Model3]()
+#### Model1
+![Model1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model1.png)
+
+#### Model2
+![Model2](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model2.png)
+
+#### Model3
+![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
 ![Epoch-Accuracy_and_Epoch_Loss_Chart_project3]()
 
 ### Analysis of Performance:
