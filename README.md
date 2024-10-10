@@ -1,4 +1,4 @@
-# Neural Network Group Project
+# Neural Network Group Projects
 
 
 ## Table of Contents
