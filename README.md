@@ -100,7 +100,7 @@ This repository presents three neural network-based projects developed by **Moha
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Abyaneh/Neural_Network_projects
 
 # Install dependencies
 pip install -r requirements.txt
