@@ -1,5 +1,6 @@
 # Neural Network Group Project
 
+[![Go to Top](#)](README.md)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,79 +14,86 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## Introduction
-This repository features three group projects using neural networks. The work combines efforts on medical diagnosis, clothing classification, and house price prediction. Mohammad Maleki Abyaneh and Mohammad Mohtashami collaborated on these projects to demonstrate deep learning techniques and machine learning applications.
 
-[Back to Top](#table-of-contents)
+This repository presents three neural network-based projects developed by **Mohammad Maleki Abyaneh** and **Mohammad Mohtashami**. Each project is designed to address a different challenge: diagnosing patients with fatty liver, classifying clothing images, and predicting house prices. These projects apply advanced deep learning techniques and machine learning algorithms, focusing on creating efficient and scalable solutions for real-world problems.
+
 ## Features
-- Neural network-based diagnosis of patients with fat.
-- Clothing image classification using convolutional neural networks.
-- Predictive analysis of house prices using regression models.
 
-[Back to Top](#table-of-contents)
+- **Diagnosis of Patients with Fat**: A binary classification neural network model designed to diagnose fatty liver using patient medical records.
+- **Clothing Classification**: A convolutional neural network (CNN) model used to classify images of clothing into various categories.
+- **House Price Prediction**: A machine learning regression model that predicts house prices based on features such as location, size, and age of the house.
+
 ## Project 1: Diagnosis of Patients with Fat
 
-**Objective**: Diagnose fatty liver using patient data and medical features.
+**Objective**: This project aimed to create a neural network model to predict fatty liver disease in patients based on medical attributes like blood sugar, blood pressure, and age.
 
-- **Data Preprocessing**: Removed inconsistencies, such as zero blood pressure, and used standardization.
-- **Model Architecture**: Designed using TensorFlow and Keras with early stopping, achieving 89.25% accuracy.
-- **Model Evaluation**: Confusion matrix analysis, accuracy, and error graphs were used to assess the model.
+### Data Characteristics:
+- **Dataset**: The dataset includes patient medical records, with features like blood pressure, blood sugar levels, age, and other clinical indicators.
+- **Challenges**:
+  - **Data Preprocessing**: Cleaned and corrected missing or erroneous data (e.g., zero blood pressure). Used methods such as mean replacement or removal of invalid samples.
+  - **Segmentation & Standardization**: The data was split into training (80%) and testing (20%) sets, and standardized using `StandardScaler`.
 
-[Back to Top](#table-of-contents)
-## Project 2: House Price Prediction
+### Model Architecture:
+- The neural network was designed using **TensorFlow** and **Keras**, with two hidden layers. The first hidden layer has 64 neurons, and the second has 32 neurons, both using **ReLU** activation.
+- The output layer utilizes the **Sigmoid** function for binary classification.
+- **EarlyStopping** and **ModelCheckpoint** were implemented to prevent overfitting and to save the best model.
 
-**Objective**: Predict house prices using machine learning.
+### Model Performance:
+- **Accuracy**: Achieved a final accuracy of **89.25%**.
+- **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
-- **Contribution by Mohammad Mohtashami**: Implemented machine learning models to predict house prices with key metrics such as MAE and RMSE.
-  
-  [Back to Top](#table-of-contents)
-## Project 3: Clothing Classification
+[![Go to Top](#)](README.md)
 
-**Objective**: Classify clothing images using CNN models.
+## Project 2: Clothing Classification
 
-- **Data**: 70,000 images split into training and testing sets.
-- **Model Architecture**: CNN with dropout layers to reduce overfitting. Test accuracy reached 92.17%.
-- **Models Comparison**: Explored multiple architectures, selecting the best based on accuracy and loss.
+**Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
 
-[Back to Top](#table-of-contents)
+### Data Characteristics:
+- **Dataset**: 70,000 images of clothing, divided into 60,000 images for training and validation, and 10,000 for testing.
+- **Challenges**:
+  - Designed three different CNN models with varying architectures.
+  - Experimented with different hyperparameters (epochs, batch size, dropout layers) for model optimization.
+
+### Model 1 Architecture:
+- 4 convolutional layers with filter sizes of 32, 64, 128, and 256, each followed by **MaxPooling** layers.
+- The final layers include **Flatten**, **Dense (128 neurons)** with ReLU, and an output layer with **Softmax** for multi-class classification.
+
+### Results:
+- **Model 1 Test Accuracy**: 91.35%
+- **Model 2 Test Accuracy**: 87.83%
+- **Model 3 Test Accuracy**: 92.17%
+- **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
+
+### Analysis of Performance:
+- Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
+
+[![Go to Top](#)](README.md)
+
+## Project 3: House Price Prediction
+
+**Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
+
+### Data and Model:
+- The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
+- A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
+- **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
+
+[![Go to Top](#)](README.md)
 
 ## Technologies & Tools Used
-- Python (TensorFlow, Keras, Pandas, Scikit-learn)
-- CNN for image processing
-- Data preprocessing techniques
-- Early stopping and checkpointing
 
-[Back to Top](#table-of-contents)
+- **Programming Language**: Python
+- **Libraries**: TensorFlow, Keras, Pandas, Scikit-learn, Matplotlib
+- **Machine Learning Techniques**: Neural Networks, CNNs, Regression
+- **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout
+
+[![Go to Top](#)](README.md)
+
 ## How to Run the Project
 
+### Step 1: Clone the repository
 ```bash
-# Clone repository
-git clone https://github.com/Abyaneh/Neural_Network_projects/tree/main
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run specific projects
-python diagnosis_of_patients_with_fat.py
-python clothing_classification.py
-python house_price_prediction.py
-```
-## Team Members
-- **Mohammad Maleki Abyaneh** (me)
-- **Mohammad Mohtashami**
-
-[Back to Top](#table-of-contents)
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -m 'Add a new feature'`).
-4. Push to your branch (`git push origin feature-branch`).
-5. Open a pull request for review.
-
-[Back to Top](#table-of-contents)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/blob/main/LICENSE) file for details.
-
-[Back to Top](#table-of-contents)
+git clone https://github.com/yourusername/yourproject.git
