@@ -50,7 +50,7 @@ This repository presents three neural network-based projects developed by **Moha
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1_project1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1_project1.png)
 
 #### With RandomizedSearchCV(Model 6)
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCVproject1]()
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCVproject1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCVproject1.png)
 
 [Back to Top](#table-of-contents)
 ## Project 2: House Price Prediction
