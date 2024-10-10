@@ -32,7 +32,14 @@ This repository features three group projects using neural networks. The work co
 - **Model Evaluation**: Confusion matrix analysis, accuracy, and error graphs were used to assess the model.
 
 [Back to Top](#table-of-contents)
-## Project 2: Clothing Classification
+## Project 2: House Price Prediction
+
+**Objective**: Predict house prices using machine learning.
+
+- **Contribution by Mohammad Mohtashami**: Implemented machine learning models to predict house prices with key metrics such as MAE and RMSE.
+  
+  [Back to Top](#table-of-contents)
+## Project 3: Clothing Classification
 
 **Objective**: Classify clothing images using CNN models.
 
@@ -41,13 +48,7 @@ This repository features three group projects using neural networks. The work co
 - **Models Comparison**: Explored multiple architectures, selecting the best based on accuracy and loss.
 
 [Back to Top](#table-of-contents)
-## Project 3: House Price Prediction
 
-**Objective**: Predict house prices using machine learning.
-
-- **Contribution by Mohammad Mohtashami**: Implemented machine learning models to predict house prices with key metrics such as MAE and RMSE.
-  
-  [Back to Top](#table-of-contents)
 ## Technologies & Tools Used
 - Python (TensorFlow, Keras, Pandas, Scikit-learn)
 - CNN for image processing
