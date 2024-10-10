@@ -22,6 +22,7 @@ This repository features three group projects using neural networks. The work co
 - Clothing image classification using convolutional neural networks.
 - Predictive analysis of house prices using regression models.
 
+[Back to Top](#table-of-contents)
 ## Project 1: Diagnosis of Patients with Fat
 
 **Objective**: Diagnose fatty liver using patient data and medical features.
@@ -30,6 +31,7 @@ This repository features three group projects using neural networks. The work co
 - **Model Architecture**: Designed using TensorFlow and Keras with early stopping, achieving 89.25% accuracy.
 - **Model Evaluation**: Confusion matrix analysis, accuracy, and error graphs were used to assess the model.
 
+[Back to Top](#table-of-contents)
 ## Project 2: Clothing Classification
 
 **Objective**: Classify clothing images using CNN models.
@@ -38,18 +40,21 @@ This repository features three group projects using neural networks. The work co
 - **Model Architecture**: CNN with dropout layers to reduce overfitting. Test accuracy reached 92.17%.
 - **Models Comparison**: Explored multiple architectures, selecting the best based on accuracy and loss.
 
+[Back to Top](#table-of-contents)
 ## Project 3: House Price Prediction
 
 **Objective**: Predict house prices using machine learning.
 
 - **Contribution by Mohammad Mohtashami**: Implemented machine learning models to predict house prices with key metrics such as MAE and RMSE.
   
+  [Back to Top](#table-of-contents)
 ## Technologies & Tools Used
 - Python (TensorFlow, Keras, Pandas, Scikit-learn)
 - CNN for image processing
 - Data preprocessing techniques
 - Early stopping and checkpointing
 
+[Back to Top](#table-of-contents)
 ## How to Run the Project
 
 ```bash
@@ -63,3 +68,23 @@ pip install -r requirements.txt
 python diagnosis_of_patients_with_fat.py
 python clothing_classification.py
 python house_price_prediction.py
+
+## Team Members
+- **Mohammad Maleki Abyaneh** (me)
+- **Mohammad Mohtashami**
+
+[Back to Top](#table-of-contents)
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Add a new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a pull request for review.
+
+[Back to Top](#table-of-contents)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/blob/main/LICENSE) file for details.
+
+[Back to Top](#table-of-contents)
