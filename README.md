@@ -68,7 +68,7 @@ pip install -r requirements.txt
 python diagnosis_of_patients_with_fat.py
 python clothing_classification.py
 python house_price_prediction.py
-
+```
 ## Team Members
 - **Mohammad Maleki Abyaneh** (me)
 - **Mohammad Mohtashami**
