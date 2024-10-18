@@ -43,10 +43,10 @@ This repository presents three neural network-based projects developed by **Moha
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
 #### Model 1
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1_project1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1_project1.png)
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1.png)
 
 #### Model 6 (With RandomizedSearchCV)
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCVproject1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCVproject1.png)
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCV.png)
 
 [Back to Top](#table-of-contents)
 
