@@ -1,15 +1,11 @@
-# Neural Network Group Projects
-
+# Diagnosis of Patients
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Project 1: Diagnosis of Patients with Fat](#project-1-diagnosis-of-patients-with-fat)
-- [Project 2: House Price Prediction](#project-2-house-price-prediction)
-- [Project 3: Clothing Classification](#project-3-clothing-classification)
+- [Diagnosis of Patients with Fat](#diagnosis-of-patients-with-fat)
 - [Technologies & Tools Used](#technologies--tools-used)
 - [How to Run the Project](#how-to-run-the-project)
-- [Team Members](#team-members)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,7 +23,7 @@ This repository presents three neural network-based projects developed by **Moha
 - **House Price Prediction**: A machine learning regression model that predicts house prices based on features such as location, size, and age of the house.
 
 [Back to Top](#table-of-contents)
-## Project 1: Diagnosis of Patients with Fat
+## Diagnosis of Patients with Fat
 
 **Objective**: This project aimed to create a neural network model to predict fatty liver disease in patients based on medical attributes like blood sugar, blood pressure, and age.
 
@@ -53,57 +49,14 @@ This repository presents three neural network-based projects developed by **Moha
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCVproject1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCVproject1.png)
 
 [Back to Top](#table-of-contents)
-## Project 2: House Price Prediction
-
-**Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
-
-### Data and Model:
-- The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
-- A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
-- **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
-
-[Back to Top](#table-of-contents)
-## Project 3: Clothing Classification
-
-**Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
-
-### Data Characteristics:
-- **Dataset**: 70,000 images of clothing, divided into 60,000 images for training and validation, and 10,000 for testing.
-- **Challenges**:
-  - Designed three different CNN models with varying architectures.
-  - Experimented with different hyperparameters (epochs, batch size, dropout layers) for model optimization.
-
-### Model 1 Architecture:
-- 4 convolutional layers with filter sizes of 32, 64, 128, and 256, each followed by **MaxPooling** layers.
-- The final layers include **Flatten**, **Dense (128 neurons)** with ReLU, and an output layer with **Softmax** for multi-class classification.
-
-### Results:
-- **Model 1 Test Accuracy**: 91.35%
-- **Model 2 Test Accuracy**: 87.83%
-- **Model 3 Test Accuracy**: 92.17%
-- **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
-
-#### Model1
-![Model1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model1.png)
-
-#### Model2
-![Model2](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model2.png)
-
-#### Model3
-![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
-
-### Analysis of Performance:
-- Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
-
-
-[Back to Top](#table-of-contents)
 
 ## Technologies & Tools Used
 
 - **Programming Language**: Python
 - **Libraries**: TensorFlow, Keras, Pandas, Scikit-learn, Matplotlib
-- **Machine Learning Techniques**: Neural Networks, CNNs, Regression
+- **Machine Learning Techniques**: Neural Networks, Binary Classification
 - **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout
+
 
 [Back to Top](#table-of-contents)
 
@@ -121,11 +74,6 @@ python diagnosis_of_patients_with_fat.py
 python clothing_classification.py
 python house_price_prediction.py
 ```
-[Back to Top](#table-of-contents)
-## Team Members
-- **Mohammad Maleki Abyaneh** (me)
-- **Mohammad Mohtashami**
-
 [Back to Top](#table-of-contents)
 
 ## Contributing
