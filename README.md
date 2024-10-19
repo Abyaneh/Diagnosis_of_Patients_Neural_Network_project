@@ -46,7 +46,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 
 ## Performance
 
-- **Accuracy**: 89.25%
+- **Accuracy**: 89.25% ( for model 1)
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
 #### Model 1
@@ -70,7 +70,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
    ```bash
    git clone https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main
    ```
-2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model.
+2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model. ( you can replace... with all of the names of the codes that are in [this file]()
 
 
 ## Contributing
