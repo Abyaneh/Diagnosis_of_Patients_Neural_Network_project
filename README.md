@@ -34,7 +34,8 @@ This project is a neural network-based solution to diagnose fatty liver disease 
   - Two hidden layers: 64 and 32 neurons with **ReLU** activation.
   - **Sigmoid** function in the output layer for binary classification.
   - Optimized with **EarlyStopping** and **ModelCheckpoint**.
-  
+
+#### Model 1 Architecture:
 ![Model 1 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_Me.png)
 
 ---
