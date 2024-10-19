@@ -7,7 +7,7 @@
 - [Performance](#performance)
 - [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
-- [Contact](#contact)
+- [Contributing](#contributing)
 
 ---
 
