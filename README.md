@@ -58,7 +58,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/fatty-liver-diagnosis.git
+   git clone https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main
    ```
 2. **Run the model**: Open the Diagnosis_Fatty_Liver.ipynb notebook and follow the instructions to train and test the model.
 
