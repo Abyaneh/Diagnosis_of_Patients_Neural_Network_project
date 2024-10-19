@@ -47,7 +47,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 ## Performance
 
 - **Accuracy**: 89.25%
-- **Confusion Matrix Analysis**: Focused on reducing false positives and false negatives.
+- **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
 #### Model 1
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1.png)
