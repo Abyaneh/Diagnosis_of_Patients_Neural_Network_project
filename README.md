@@ -40,7 +40,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 
 ### Hint: I trained 6 models that you can see the architectures in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape). You can also see the architecture of model six below.
 
-![Model 6 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_Me.png)
+![Model 6 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_shuffle_Dropout_correction2_.png)
 ---
 
 ## Performance
