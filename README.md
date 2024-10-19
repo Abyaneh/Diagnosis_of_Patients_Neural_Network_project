@@ -60,7 +60,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
    ```bash
    git clone https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main
    ```
-2. **Run the model**: Open the Diagnosis_Fatty_Liver.ipynb notebook and follow the instructions to train and test the model.
+2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model.
 
 
 ## Contributing
