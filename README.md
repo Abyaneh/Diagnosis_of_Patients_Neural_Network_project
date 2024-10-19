@@ -24,9 +24,8 @@ This project is a neural network-based solution to diagnose fatty liver disease 
   - Removed invalid samples (e.g., zero values for blood pressure).
   - Missing values handled through mean replacement.
   - Data was split into **80% for training** and **20% for testing**.
- 
-You can download the dataset from [this link](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
 ---
+You can download the dataset from [this link](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
 
 ## Model Architecture
 
