@@ -8,7 +8,7 @@
 - [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
 - [Contributing](#contributing)
-
+- [License](#license)
 ---
 
 ## Introduction
