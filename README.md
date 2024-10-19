@@ -1,132 +1,77 @@
-# Neural Network Group Projects
-
+# Fatty Liver Disease Diagnosis
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Project 1: Diagnosis of Patients with Fat](#project-1-diagnosis-of-patients-with-fat)
-- [Project 2: House Price Prediction](#project-2-house-price-prediction)
-- [Project 3: Clothing Classification](#project-3-clothing-classification)
-- [Technologies & Tools Used](#technologies--tools-used)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Performance](#performance)
+- [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
-- [Team Members](#team-members)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Introduction
 
-This repository presents three neural network-based projects developed by **Mohammad Maleki Abyaneh** and **Mohammad Mohtashami**. Each project is designed to address a different challenge: diagnosing patients with fatty liver, classifying clothing images, and predicting house prices. These projects apply advanced deep learning techniques and machine learning algorithms, focusing on creating efficient and scalable solutions for real-world problems.
+This project is a neural network-based solution to diagnose fatty liver disease based on medical data such as blood sugar, blood pressure, and age. The goal is to provide a fast and reliable way to assist in the diagnosis of this condition using machine learning.
 
-[Back to Top](#table-of-contents)
-## Features
+---
 
-- **Diagnosis of Patients with Fat**: A binary classification neural network model designed to diagnose fatty liver using patient medical records.
-- **Clothing Classification**: A convolutional neural network (CNN) model used to classify images of clothing into various categories.
-- **House Price Prediction**: A machine learning regression model that predicts house prices based on features such as location, size, and age of the house.
+## Dataset
 
-[Back to Top](#table-of-contents)
-## Project 1: Diagnosis of Patients with Fat
+- **Source**: The dataset consists of anonymized patient medical records with features like blood pressure, blood sugar levels, age, and other clinical indicators.
+- **Preprocessing**:
+  - Removed invalid samples (e.g., zero values for blood pressure).
+  - Missing values handled through mean replacement.
+  - Data was split into **80% for training** and **20% for testing**.
+---
+##### Hint: You can download the dataset from [this link](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
 
-**Objective**: This project aimed to create a neural network model to predict fatty liver disease in patients based on medical attributes like blood sugar, blood pressure, and age.
+## Model Architecture
 
-### Data Characteristics:
-- **Dataset**: The dataset includes patient medical records, with features like blood pressure, blood sugar levels, age, and other clinical indicators.
-- **Challenges**:
-  - **Data Preprocessing**: Cleaned and corrected missing or erroneous data (e.g., zero blood pressure). Used methods such as mean replacement or removal of invalid samples.
-  - **Segmentation & Standardization**: The data was split into training (80%) and testing (20%) sets, and standardized using `StandardScaler`.
+- **Framework**: TensorFlow, Keras
+- **Architecture**:
+  - Two hidden layers: 64 and 32 neurons with **ReLU** activation.
+  - **Sigmoid** function in the output layer for binary classification.
+  - Optimized with **EarlyStopping** and **ModelCheckpoint**.
 
-### Model Architecture:
-- The neural network was designed using **TensorFlow** and **Keras**, with two hidden layers. The first hidden layer has 64 neurons, and the second has 32 neurons, both using **ReLU** activation.
-- The output layer utilizes the **Sigmoid** function for binary classification.
-- **EarlyStopping** and **ModelCheckpoint** were implemented to prevent overfitting and to save the best model.
+#### Model 1 Architecture:
+![Model 1 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_Me.png)
 
-### Model Performance:
-- **Accuracy**: Achieved a final accuracy of **89.25%**.
+#### Hint: I trained 6 models that you can see the architectures in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape). You can also see the architecture of model six below.
+
+#### Model 6 Architecture:
+![Model 6 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_shuffle_Dropout_correction2_.png)
+---
+
+## Performance
+
+- **Accuracy**: 89.25% ( for model 1)
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
 #### Model 1
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1_project1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1_project1.png)
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1.png)
 
 #### Model 6 (With RandomizedSearchCV)
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCVproject1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCVproject1.png)
+![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCV.png)
+---
 
-[Back to Top](#table-of-contents)
-## Project 2: House Price Prediction
-
-**Objective**: Predict house prices using various attributes such as size, location, number of rooms, etc.
-
-### Data and Model:
-- The dataset includes house-related features like **location**, **square footage**, **number of bedrooms**, and **age** of the property.
-- A machine learning regression model was implemented by **Mohammad Mohtashami** to predict house prices.
-- **Key Metrics**: Evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square Error (RMSE)** to ensure accurate prediction.
-
-[Back to Top](#table-of-contents)
-## Project 3: Clothing Classification
-
-**Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
-
-### Data Characteristics:
-- **Dataset**: 70,000 images of clothing, divided into 60,000 images for training and validation, and 10,000 for testing.
-- **Challenges**:
-  - Designed three different CNN models with varying architectures.
-  - Experimented with different hyperparameters (epochs, batch size, dropout layers) for model optimization.
-
-### Model 1 Architecture:
-- 4 convolutional layers with filter sizes of 32, 64, 128, and 256, each followed by **MaxPooling** layers.
-- The final layers include **Flatten**, **Dense (128 neurons)** with ReLU, and an output layer with **Softmax** for multi-class classification.
-
-### Results:
-- **Model 1 Test Accuracy**: 91.35%
-- **Model 2 Test Accuracy**: 87.83%
-- **Model 3 Test Accuracy**: 92.17%
-- **Best Model**: Model 3, which included a **Dropout Layer (0.5)** to prevent overfitting, achieved the best performance with a test accuracy of **92.17%**.
-
-#### Model1
-![Model1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model1.png)
-
-#### Model2
-![Model2](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model2.png)
-
-#### Model3
-![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
-
-### Analysis of Performance:
-- Models were evaluated using accuracy and loss graphs. Model 3, with its dropout layer, showed the best balance between training and validation accuracy, reducing overfitting compared to the other models.
-
-
-[Back to Top](#table-of-contents)
-
-## Technologies & Tools Used
+## Technologies Used
 
 - **Programming Language**: Python
-- **Libraries**: TensorFlow, Keras, Pandas, Scikit-learn, Matplotlib
-- **Machine Learning Techniques**: Neural Networks, CNNs, Regression
-- **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout
+- **Libraries**: TensorFlow, Keras, Pandas, Scikit-learn
+- **Optimization Techniques**: EarlyStopping, ModelCheckpoint
 
-[Back to Top](#table-of-contents)
+---
 
 ## How to Run the Project
 
-```bash
-# Clone repository
-git clone https://github.com/Abyaneh/Neural_Network_projects
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main
+   ```
+2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model. ( You can replace… with all the names of the codes that are in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Code)
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run specific projects
-python diagnosis_of_patients_with_fat.py
-python clothing_classification.py
-python house_price_prediction.py
-```
-[Back to Top](#table-of-contents)
-## Team Members
-- **Mohammad Maleki Abyaneh** (me)
-- **Mohammad Mohtashami**
-
-[Back to Top](#table-of-contents)
 
 ## Contributing
 Contributions are welcome! To contribute:
