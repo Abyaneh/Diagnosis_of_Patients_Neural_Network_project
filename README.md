@@ -24,39 +24,24 @@ This project is a neural network-based solution to diagnose fatty liver disease 
   - Removed invalid samples (e.g., zero values for blood pressure).
   - Missing values handled through mean replacement.
   - Data was split into **80% for training** and **20% for testing**.
----
-##### Hint: You can download the dataset from [this link](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
+
+##### You can download the dataset from [here](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
 
 ## Model Architecture
 
 - **Framework**: TensorFlow, Keras
-- **Architecture**:
-  - Two hidden layers: 64 and 32 neurons with **ReLU** activation.
-  - **Sigmoid** function in the output layer for binary classification.
-  - Optimized with **EarlyStopping** and **ModelCheckpoint**.
-
-#### Model 1 Architecture:
-![Model 1 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_Me.png)
-
-#### Hint: I trained 6 models that you can see the architectures in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape). You can also see the architecture of model six below.
+I trained 6 different models that you can see the architectures in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape) and model 6 was the best one. 
 
 #### Model 6 Architecture:
 ![Model 6 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_shuffle_Dropout_correction2_.png)
----
+
 
 ## Performance
-
 - **Accuracy**: 89.25% ( for model 1)
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
-#### Model 1 (accuracy)
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_1.png)
-
-#### Model 6 (With RandomizedSearchCV) (accuracy)
+#### Model 6 (With RandomizedSearchCV) 
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCV.png)
-
-### Model 1 (confusion matrix)
-![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_1](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Confusion%20matrix_model1.png)
 
 #### Model 6 (With RandomizedSearchCV) (confusion matrix)
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Confusion%20matrix_model6.png)
