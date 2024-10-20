@@ -37,13 +37,13 @@ I trained 6 different models that you can see the architectures in [this file](h
 
 
 ## Performance
-- **Accuracy**: 89.25% ( for model 1)
+- **Accuracy**: 88.00% ( for model 6)
 - **Error Analysis**: Focused on reducing false positives and false negatives, with detailed confusion matrix evaluation.
 
-#### Model 6 (With RandomizedSearchCV) 
+#### Model 6 (With RandomizedSearchCV) :
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Epoch-Accuracy_and_Epoch-Loss_Scores%20_for_Model_6_RandomizedSearchCV.png)
 
-#### Model 6 (With RandomizedSearchCV) (confusion matrix)
+#### Model 6 (With RandomizedSearchCV) Confusion Matrix:
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Confusion%20matrix_model6.png)
 
 ---
