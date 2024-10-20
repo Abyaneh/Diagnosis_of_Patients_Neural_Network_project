@@ -15,6 +15,8 @@
 
 This project is a neural network-based solution to diagnose fatty liver disease based on medical data such as blood sugar, blood pressure, and age. The goal is to provide a fast and reliable way to assist in the diagnosis of this condition using machine learning.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## Dataset
@@ -27,6 +29,8 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 
 ##### You can download the dataset from [here](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Code/data.csv)
 
+[Back to Top](#table-of-contents)
+
 ## Model Architecture
 
 - **Framework**: TensorFlow, Keras
@@ -35,6 +39,7 @@ I trained 6 different models that you can see the architectures in [this file](h
 #### Model 6 Architecture:
 ![Model 6 Architecture](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Diagnosis%20of%20Patients%20with%20Fat/Model%20shape%20picture/model%20shape/model_first_pro_shuffle_Dropout_correction2_.png)
 
+[Back to Top](#table-of-contents)
 
 ## Performance
 - **Accuracy**: 88.00% ( for model 6)
@@ -46,6 +51,8 @@ I trained 6 different models that you can see the architectures in [this file](h
 #### Model 6 (With RandomizedSearchCV) Confusion Matrix:
 ![Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/blob/main/Photos/Confusion%20matrix_model6.png)
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## Technologies Used
@@ -53,6 +60,8 @@ I trained 6 different models that you can see the architectures in [this file](h
 - **Programming Language**: Python
 - **Libraries**: TensorFlow, Keras, Pandas, Scikit-learn
 - **Optimization Techniques**: EarlyStopping, ModelCheckpoint
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -64,6 +73,7 @@ I trained 6 different models that you can see the architectures in [this file](h
    ```
 2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model. ( You can replace… with all the names of the codes that are in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Code)
 
+[Back to Top](#table-of-contents)
 
 ## Contributing
 Contributions are welcome! To contribute:
