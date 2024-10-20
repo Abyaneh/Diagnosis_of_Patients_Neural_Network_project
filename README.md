@@ -19,7 +19,7 @@ This project is a neural network-based solution to diagnose fatty liver disease 
 
 ## Dataset
 
-- **Source**: The dataset consists of anonymized patient medical records with features like blood pressure, blood sugar levels, age, and other clinical indicators.
+- The dataset consists of anonymized patient medical records with features like blood pressure, blood sugar levels, age, and other clinical indicators.
 - **Preprocessing**:
   - Removed invalid samples (e.g., zero values for blood pressure).
   - Missing values handled through mean replacement.
