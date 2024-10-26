@@ -71,7 +71,7 @@ I trained 6 different models that you can see the architectures in [this file](h
    ```bash
    git clone https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main
    ```
-2. **Run the model**: Open the first_pro_.....ipynb notebook and follow the instructions to train and test the model. ( You can replace… with all the names of the codes that are in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Code)
+2. **Run the model**: Open the first_pro_(....).ipynb notebook and follow the instructions to train and test the model. ( You can replace (....) with all the names of the codes that are in [this file](https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project/tree/main/Diagnosis%20of%20Patients%20with%20Fat/Code)
 
 [Back to Top](#table-of-contents)
 
